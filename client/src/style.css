@@ -1,0 +1,289 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('../public/Nunito-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Leckerli One';
+  src: url('../public/LeckerliOne-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+  background-color: #E5E5E5 !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.intro-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#introbtn {
+  background-color: #CCA43B !important;
+  border: none;
+  margin-top: 50px;
+  padding: 8px 16px;
+}
+
+#addbtn {
+  background-color: #CCA43B !important;
+  border: none;
+  margin-top: 50px;
+  padding: 8px 16px;
+  margin-right: 20px;
+}
+
+#viewbtn {
+  background-color: #CCA43B !important;
+  border: none;
+  margin-top: 50px;
+  padding: 8px 16px;
+}
+
+#updbtn {
+  background-color: #CCA43B !important;
+  border: none;
+  margin-top: 50px;
+  padding: 8px 16px;
+  margin-right: 20px;
+}
+
+#loginbtn {
+  background-color: #CCA43B !important;
+  border: none;
+  margin-top: 20px;
+  padding: 8px 16px;
+  margin-right: 20px;
+}
+
+#signupbtn {
+  background-color: #CCA43B !important;
+  border: none;
+  margin-top: 20px;
+  padding: 8px 16px;
+  margin-right: 20px;
+}
+
+#signuplink {
+  padding-bottom: 18px;
+  text-decoration: none;
+}
+
+#loginlink {
+  padding-bottom: 18px;
+  text-decoration: none;
+}
+
+.loginsignupform {
+  margin-top: 120px;
+}
+
+.welcome {
+  padding-bottom: 50px;
+}
+
+#browsify1 {
+  font-family: 'Leckerli One', cursive !important;
+  background-image: linear-gradient(358.4deg, rgba(249, 151, 119, 1) -2.1%, rgba(98, 58, 162, 1) 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+#browsify2 {
+  font-family: 'Leckerli One', cursive !important;
+  background-image: linear-gradient(358.4deg, rgba(249, 151, 119, 1) -2.1%, rgba(98, 58, 162, 1) 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+#emptyprod {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.product-form {
+  margin-top: 120px !important;
+  max-width: 800px;
+  margin: auto;
+}
+
+.title {
+  margin-right: 20px;
+}
+
+.title h2 {
+  font-family: 'Leckerli One', cursive !important;
+  background-image: linear-gradient(358.4deg, rgba(249, 151, 119, 1) -2.1%, rgba(98, 58, 162, 1) 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.products-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.search-form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.nav-buttons {
+  display: flex !important;
+  gap: 40px !important;
+  align-items: center !important;
+}
+
+.nav-buttons :hover {
+  color: #dc3545 !important;
+  background-color: transparent !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-form .form-control {
+  border: none !important;
+  background: #fff !important;
+  border-radius: 25px !important;
+}
+
+.logout-btn,
+.nav-link {
+  color: #000 !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+
+.product-card {
+  width: 300px;
+  margin: 20px;
+  border: 0px solid !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #242F40 !important;
+  border-radius: 25px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card .card-body {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto !important;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent !important;
+  color: #333 !important;
+  border-radius: 25px !important;
+}
+
+.btn-danger {
+  background-color: #CCA43B !important;
+  border: none !important;
+  color: #000 !important;
+  padding: 8px 16px !important;
+}
+
+.btn-danger:hover {
+  background-color: #CCA43B !important;
+  color: #E5E5E5 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh !important;
+}
+
+.product-form {
+  width: 90% !important;
+}
+
+#addprod {
+  background-color: #CCA43B !important;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .product-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
